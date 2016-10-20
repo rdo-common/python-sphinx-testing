@@ -15,11 +15,12 @@ Source0:        https://files.pythonhosted.org/packages/source/s/%{srcname}/%{sr
 BuildArch:      noarch
 
 BuildRequires:  python2-devel
+BuildRequires:  python2-mock
 BuildRequires:  python2-nose
 BuildRequires:  python2-nose-cov
 BuildRequires:  python2-setuptools
 BuildRequires:  python2-six
-BuildRequires:  python2-sphinx
+BuildRequires:  python-sphinx
 
 %if 0%{?with_python3}
 BuildRequires:  python3-devel
