@@ -6,7 +6,7 @@
 
 Name:           python-%{srcname}
 Version:        0.7.1
-Release:        2%{?dist}
+Release:        3%{?dist}
 Summary:        Testing utility classes and functions for Sphinx extensions
 
 License:        BSD
@@ -124,6 +124,9 @@ popd
 %endif
 
 %changelog
+* Mon Dec 19 2016 Miro Hrončok <mhroncok@redhat.com> - 0.7.1-3
+- Rebuild for Python 3.6
+
 * Tue Mar  1 2016 Jerry James <loganjerry@gmail.com> - 0.7.1-2
 - Clarify the description
 - Fix nosetests invocation
