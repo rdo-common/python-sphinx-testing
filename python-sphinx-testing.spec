@@ -11,7 +11,7 @@ Summary:        Testing utility classes and functions for Sphinx extensions
 
 License:        BSD
 URL:            https://github.com/sphinx-doc/sphinx-testing
-Source0:        https://pypi.python.org/packages/source/s/%{srcname}/%{srcname}-%{version}.tar.gz
+Source0:        https://files.pythonhosted.org/packages/source/s/%{srcname}/%{srcname}-%{version}.tar.gz
 BuildArch:      noarch
 
 BuildRequires:  python2-devel
