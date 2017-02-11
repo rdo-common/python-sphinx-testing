@@ -6,7 +6,7 @@
 
 Name:           python-%{srcname}
 Version:        0.7.1
-Release:        3%{?dist}
+Release:        4%{?dist}
 Summary:        Testing utility classes and functions for Sphinx extensions
 
 License:        BSD
@@ -124,6 +124,9 @@ popd
 %endif
 
 %changelog
+* Sat Feb 11 2017 Fedora Release Engineering <releng@fedoraproject.org> - 0.7.1-4
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_26_Mass_Rebuild
+
 * Mon Dec 19 2016 Miro Hrončok <mhroncok@redhat.com> - 0.7.1-3
 - Rebuild for Python 3.6
 
