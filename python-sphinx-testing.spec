@@ -5,8 +5,8 @@
 %global srcname sphinx-testing
 
 Name:           python-%{srcname}
-Version:        0.7.1
-Release:        4%{?dist}
+Version:        0.7.2
+Release:        1%{?dist}
 Summary:        Testing utility classes and functions for Sphinx extensions
 
 License:        BSD
@@ -124,6 +124,9 @@ popd
 %endif
 
 %changelog
+* Thu May  4 2017 Jerry James <loganjerry@gmail.com> - 0.7.2-1
+- New upstream version (bz 1447818)
+
 * Sat Feb 11 2017 Fedora Release Engineering <releng@fedoraproject.org> - 0.7.1-4
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_26_Mass_Rebuild
 
